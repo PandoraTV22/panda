@@ -1,0 +1,14 @@
+div {
+    border: 1px solid #bf9400;
+    width: 200px;
+    height: 50px;
+    align-content: center;
+}
+
+span {
+    text-decoration: overline #0b12ff;
+   margin-left: -4px;
+}
+.kor {
+
+}

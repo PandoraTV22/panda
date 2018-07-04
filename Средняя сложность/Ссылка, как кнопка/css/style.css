@@ -1,0 +1,13 @@
+a {
+    border: 1px solid black;
+    width: 160px;
+    height: 40px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    background: linear-gradient(to top, #ffffe7, #ffffff);
+    color: red;
+    box-shadow: 0 0 1px black;
+}

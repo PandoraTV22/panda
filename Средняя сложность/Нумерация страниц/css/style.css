@@ -1,0 +1,29 @@
+.item-list {
+    border-color: white;
+    border-bottom: 3px solid #626262;
+    height: 30px;
+}
+
+a {
+    color: #810d0c;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+}
+.pager li {
+    display: inline-block;
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+
+}
+
+.pager-current {
+    background: #bfc0bd;
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: #000000 solid 3px ;
+
+}

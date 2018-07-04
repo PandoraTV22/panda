@@ -1,0 +1,14 @@
+.diag {
+    border: 24px solid #95CD8B;
+    border-top: 25px solid #d0e6bb;
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    text-align: center;
+    font: 30px sans-serif;
+
+}
+span {
+    font-size: 20px;
+}

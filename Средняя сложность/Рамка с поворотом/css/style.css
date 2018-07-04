@@ -1,0 +1,19 @@
+.bord, .bord:after {
+    width: 150px;
+    height: 150px;
+    outline: 1px solid #fff;
+    box-shadow: 0 0 0 5px #dad6cf, 0 0 0 8px #c2b59d;
+    display: inline-block;
+}
+.bord{
+    position: relative;
+    margin: 30px;
+}
+.bord:after {
+    content: "";
+    transform: rotate(-8deg);
+    position: absolute;
+    margin-top: -150px;
+    z-index: -1;
+    left: 1px; bottom: -3px;
+}

@@ -1,0 +1,25 @@
+.button1 { background: linear-gradient(#52b2ff,#4bd8ff, white);
+border-radius: 5px;
+    height: 30px;
+}
+.button2 { background: linear-gradient(#00b035 40%, rgba(31, 39, 40, 0.72) 50%,#00b035 70%);
+    border-radius: 10px;
+    height: 30px;
+}
+.button3 { background: linear-gradient(white 1%, #00dfff 50%, #00adff 80%);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+.button4 { background: linear-gradient(white, grey, black);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.button5 {
+    background: linear-gradient(#e6e7e8, #bec0c2, #e9e9ea);
+    border: 3px inset #f0f0f0;
+    border-radius: 5px;
+}
+

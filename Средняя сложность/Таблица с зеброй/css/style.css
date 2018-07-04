@@ -1,0 +1,30 @@
+.lux {
+    width: 300px;
+    border: 1px solid #a52a2a;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+.lux th {
+    background: #a52a2a;
+    color: white;
+}
+.lux td {
+    border-bottom: 1px solid #a52a2a;
+
+}
+.lux td, .lux th {
+    padding: 4px;
+}
+tr:nth-child(2){background: #fffee8;
+}
+
+tr:nth-child(4){background: #fffee8;
+}
+
+tr:nth-child(3) { background: #fff1d2;
+}
+
+tr:nth-child(5) { background: #fff1d2;
+
+}

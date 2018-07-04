@@ -1,0 +1,10 @@
+.bu {
+position: relative;
+    margin: 20px;
+    background: linear-gradient(0deg, #dfaaff 0%,#ffd8ea 45%,  #FFD8EA 55%, #ff8fde 100%);
+    width: 200px;
+    height: 60px;
+border-radius: 35px;
+border: double white;
+    font-size: 20px;
+}

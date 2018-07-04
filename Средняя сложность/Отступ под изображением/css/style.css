@@ -1,0 +1,7 @@
+body { background: #333; }
+div {
+    position: absolute;
+    left: 200px; top: 50px;
+    border: 2px solid #28a028;
+    background: #fff;
+    display: block}

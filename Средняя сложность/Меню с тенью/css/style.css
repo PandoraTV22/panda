@@ -1,0 +1,15 @@
+div {
+    width: 200px;
+    height: 160px;
+    background: #f9e497;
+    box-shadow: 5px 5px #880000;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+p {
+    font-size: 15px;
+    color: #880000;
+    padding-left: 10px;
+    line-height: 12px;
+    font-family: "Times New Roman";
+}

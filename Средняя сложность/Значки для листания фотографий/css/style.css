@@ -1,0 +1,32 @@
+div {cccccccccccc
+    width: 600px;
+    height: 380px;
+    background: url(http://htmlbook.ru/files/river.jpg) no-repeat;
+}
+
+input{ display: none}
+
+.ph {
+    position: relative;
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    background-color: #000;
+    cursor: pointer;
+    margin-left: 10px;
+    top: 348px;
+    left: 200px;
+
+}
+#ph1:checked ~ .lab1,
+#ph2:checked ~ .lab2,
+#ph3:checked ~ .lab3,
+#ph4:checked ~ .lab4,
+#ph5:checked ~ .lab5,
+#ph6:checked ~ .lab6{
+    background-color: #0024ff;
+    box-shadow: 0 0 4px 2px #0bff00;
+    transition: all .2s linear;
+    cursor: auto;}

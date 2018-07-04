@@ -1,0 +1,49 @@
+.rate {
+    width: 80%;
+    height: 50px;
+    background: grey;
+    border-radius: 10px;
+}
+.rate::after{
+    background: #74c736;
+    width: 10%;
+    height: 50px;
+    border-radius: 10px 0 0 10px;
+    content: "9691";
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    color: white;
+    position: absolute;
+    margin-top: -50px;
+}
+
+input {width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.minus {margin-top: 10px;
+    margin-left: 80%;
+    background: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.plus {margin-top: 10px;
+    background: #15c700;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+span { font-size: 30px;
+    line-height: 50px;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+input:hover {box-shadow: 0 0 0 2px #fff38f;
+    transition: all .4s linear;
+}

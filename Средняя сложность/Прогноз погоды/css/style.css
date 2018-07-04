@@ -1,0 +1,20 @@
+div{
+    display: inline-block;
+
+}
+.bliz {
+    background: #0376ff;
+    color: white;
+    font-size: 39px;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    padding-top: 17px;
+}
+.grad {
+    text-align: center;
+    font-size: 25px;
+}
+div:hover{
+    box-shadow: 0 0 5px;
+    transition: all .3s linear;
+}

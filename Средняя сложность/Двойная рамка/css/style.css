@@ -1,0 +1,21 @@
+body {
+    background-color: #fcf8a9;
+}
+div {
+    position: relative;
+    border: 16px solid #eb7223;
+    width: 200px;
+    height: 50px;
+background: white;
+    padding: 10px;
+}
+div:before {
+    position: absolute;
+    content: " ";
+    border: 8px solid #E9B700;
+    height: 78px;
+    width: 228px;
+    top: -16px;
+    left: -16px;
+
+}

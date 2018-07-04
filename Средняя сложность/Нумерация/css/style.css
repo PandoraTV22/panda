@@ -1,0 +1,10 @@
+li {
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    margin: 5px;
+    background: linear-gradient(to top, lightgray, white);
+}

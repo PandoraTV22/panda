@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    margin: 50px 20px;
+}
+th {
+    background-color: gray;
+    color: white;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+td:nth-child(1) {
+background: #5cebff;
+}
+td:nth-child(2) {
+    background: #ffffca;
+}
+td:nth-child(3) {
+    background: #5cebff;
+    text-align: center;
+}
+td:nth-child(4) {
+    background: #ffffca;
+}
