@@ -1,0 +1,9 @@
+@media print {
+
+    body {
+
+        font: 12pt "Times New Roman";
+        background: #ffeefe;
+        color: black;
+    }
+}

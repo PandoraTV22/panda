@@ -1,0 +1,16 @@
+.bla {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+}
+.blu {
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+}
+div {
+    display:inline-block;
+}
+div:hover {
+    background-color: yellow;
+}

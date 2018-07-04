@@ -1,0 +1,23 @@
+body {
+    font-size: 25px;
+}
+
+td {
+    padding: 7px;
+}
+
+.re {
+    background-color: red;
+    font-family: sans-serif;
+    color: white;
+    margin: 5px;
+}
+.or {
+    background-color: orange;
+    font-family: sans-serif;
+    color: gray;
+}
+.ye {
+    background-color: yellow;
+    font-family: sans-serif;
+}

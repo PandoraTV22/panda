@@ -1,0 +1,17 @@
+body { margin: 0;
+}
+div {
+    background: red;
+    white-space: nowrap;
+    position: relative;
+    font: 35px  impact;
+    color: white;
+    padding-left: 15px;
+    min-height: 100px;
+}
+.perec {
+    bottom: -10px;
+    position: absolute;
+
+
+}

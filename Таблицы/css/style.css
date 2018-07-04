@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001646;
+    color: #fff;
+    margin: 200px;
+position: relative;
+    left: 200px;
+    width: 1000px;
+}
+
+.head {
+
+    height: 75px;
+    vertical-align: middle;
+}
+
+p {
+    background-color: black;
+    margin: 0 100px;
+    font-family: Verdana;
+    color: #ffe1d5;
+    width: 150px;
+    padding-left: 60px;
+    margin-left: 0px;
+    position: relative;
+    top: 126px;
+    min-height:25px;
+
+
+}
+.tab {
+
+    text-align: justify;
+    background-color: black;
+    color: white;
+    margin-left: 210px;
+    margin-right: 200px;
+    font-family: sans-serif;
+}
+.footer {
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    clear: both;
+    background-color: #103898;
+    line-height: 30px;
+}

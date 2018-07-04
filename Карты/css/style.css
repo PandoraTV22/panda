@@ -1,0 +1,13 @@
+span.sp:before { content: "\2660";
+
+    color: black;
+}
+span.cl:before { content: "\2663";
+    color: black;
+}
+span.he:before { content: "\2665";
+    color: red;
+}
+span.di:before { content: "\2666";
+    color: red;
+}

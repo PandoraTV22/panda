@@ -1,0 +1,8 @@
+div {
+    background: yellow;
+    border: black solid 36px;
+    height: 200px;
+    margin: 50px;
+    border-image: url("../img/border.png") 27 27 27 27 round;
+
+}

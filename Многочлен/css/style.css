@@ -1,0 +1,11 @@
+p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+sub {
+    color: #0b12ff;
+}
+sup {
+    color: red;
+}
