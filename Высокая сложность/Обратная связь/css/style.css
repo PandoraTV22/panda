@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+.back {
+    height: 130px;
+    width: 300px;
+    border-radius: 0 10px  10px 0;
+    position: fixed;
+    background: #474747;
+    color: white;
+    border-right:  20px solid #ffc74a;
+    top: 60px;
+    left: -300px;
+    transition: left 0.5s;
+}
+.back::after {
+    content: "Обратная связь";
+    color: black;
+    transform: rotate(-90deg);
+    position: absolute;
+    text-align: center;
+    left: 245px;
+    top: 60px;
+    width: 130px;
+    font-family: sans-serif;
+}
+.back:hover {
+    left: 0;
+transition: 1s;
+    border-right:  20px solid #abfffc;
+
+}
+.back img {
+    float: left;
+    margin: 10px 10px 0 10px;
+}

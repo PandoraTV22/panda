@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.me {
+    margin-right: 25px;
+font-size: 20px;
+min-height: 30px;
+width: 70px;
+position: relative;
+border-radius: 5px 5px 0 0;
+background: white;
+padding: 3px;
+}
+.down li a {
+    color: #0000ff;
+    text-decoration: none;
+    display: block;
+    width: 100%;}
+.me:hover .down {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 35px;}
+.me:hover{
+    box-shadow: 0 2px 2px 0 white,
+    2px 0 2px 0 #bababa,
+    -2px 0 2px 0 #bababa,
+    0 -1px 2px 0 #bababa;
+    border-radius: 4px 4px 0 0;
+}
+
+.menu ul{
+    position: relative;
+    width: 150px;
+    display: none;
+    padding: 3px;
+}
+.me:hover .down:before {
+    content: "";
+    width: 70px;
+    height: 6px;
+    background: white;
+    position: absolute;
+    top: -6px;
+    left: 0;
+    box-shadow: 2px 0 0 0 #bababa, -2px 0 0 0 #bababa;}
+.me:hover .fu, .me:hover .fe{
+    color: #000000;
+    text-decoration: none;
+}
+.me:hover .down, .me:hover .down{
+    box-shadow: 0 0 4px 2px #bababa;
+    z-index: -1;
+}
+.down a:hover {
+    background: #37ABFF;
+    color: #ffffff;
+}

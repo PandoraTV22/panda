@@ -1,0 +1,50 @@
+
+table {border: black 1px solid;
+    border-collapse: collapse;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+td {
+    border: black 1px solid;
+    border-collapse: collapse;
+    position: relative;
+
+}
+tr{
+    border: black 1px solid;
+    border-collapse: collapse;
+
+}
+td::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: blue;
+    border-radius: 50%;
+    margin-top: -28px;
+    margin-left: 3px;
+}
+td:hover {
+    background-color: orange;
+}
+tr:hover {
+    background-color: #fdffad;
+}
+td:hover::before {
+    background: black;
+
+}
+td::after {
+    content: "";
+    width: 70px;
+    height: 670px;
+    z-index: -1;
+    position: absolute;
+    margin-top: -350px;
+
+}
+td:hover:after{
+    background: #fdffad;
+}

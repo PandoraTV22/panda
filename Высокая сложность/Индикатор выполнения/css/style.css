@@ -1,0 +1,30 @@
+.indik {width: 250px;
+height: 30px;
+    border: 1px solid black;
+    position: relative;
+}
+.indik::before {content: "0 ";
+     position: absolute;
+     height: 30px;
+     width: 50%;
+     background: #e2e5d2;
+ }
+
+.indik::after {content: "5";
+    position: absolute;
+    margin-left: 50%;
+    height: 30px;
+    width: 50%;
+    background: #ffffff;
+    text-align: right;
+    z-index: -1;
+}
+span {position: absolute;
+align-content: center;
+margin-left: 47%;
+z-index: 1;
+    line-height: 30px;
+}
+.indik::after, .indik::before {
+    line-height: 30px;
+}

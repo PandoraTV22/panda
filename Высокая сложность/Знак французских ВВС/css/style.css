@@ -1,0 +1,21 @@
+.bbc {
+    background: radial-gradient(circle at center, blue 30%, #fff 30% ,#fff 50%, red 50%);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+.obod {
+    background: white;
+    border: red solid 17px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.cent {
+    background: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 14px;
+}
